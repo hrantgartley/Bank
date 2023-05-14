@@ -14,6 +14,7 @@ int main() {
     b2.Withdrawl();
     cout << "First Account Balance: " << b1.getBalance() << endl;
     cout << "Second Account Balance: " << b2.getBalance() << endl;
+    b1.GetChoice();
     return 0;
 }
 
