@@ -1,5 +1,5 @@
 Bank: Main.o Bank.o
-	g++ Main.o Bank.o -o Meep
+	g++ Main.o Bank.o -o Account
 
 Main.o: Main.cpp
 	g++ -c Main.cpp
