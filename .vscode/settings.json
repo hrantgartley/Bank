@@ -35,7 +35,12 @@
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "array": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp",
+    "iosfwd": "cpp"
   },
   "C_Cpp_Runner.showCompilationTime": false
 }

@@ -1,4 +1,7 @@
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
+
 using namespace std;
 
 class Bank {
@@ -11,9 +14,12 @@ public:
     double getBalance() const;
     void setBalance(double);
     double getWithdrawlAmount() const;
-    void setWithdrawlAmount(double);
     double getDepositAmount() const;
+    void setWithdrawlAmount(double);
     void setDepositAmount(double);
     void Withdrawl();
     void Deposit();
+    bool GetChoice();
+    void ProcessChoice();
 };
+
